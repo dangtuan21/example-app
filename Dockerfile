@@ -1,6 +1,8 @@
 # Set the base image to be the latest Node.js
 FROM node:10.9.0
 
+USER tuandang
+
 # Copy our application into the image
 COPY . .
 
